@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <title>EasyShop | Ecommerce Website Design</title>
+     <link rel="stylesheet" href="style.css">
+     <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@1,700&family=Roboto+Slab&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+   <div class="header">
+   <div class="container">
+   <div class="navbar">
+       <div class="logo">
+           <img src="images/logo.png" width="125px">
+       </div>
+       <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Shop</a></li>
+                <li><a href="">Profile</a></li>
+            </ul>
+       </nav>
+       <img src="images/cart1.png" width="20px" height="20px">
+   </div>
+<!-----------profile-page--------->
+<div class="profile-page">
+     <div class="container">
+          <div class="row">
+               <div class="col-1">
+                   <div class="form-container">
+                        <div class="form-btn">
+                             <span>Login</span>
+                             <span>Register</span>
+                   </div>
+                   <form id="LoginForm">
+                        <input type="text" placeholder="Username">
+                        <input type="password" placeholder="Password">
+                        <button type="submit" class="btn">Login</button>
+                        <a href="">Forgot password</a>
+                   </form>
+                   <form id="RegForm">
+                        <input type="text" placeholder="Username">
+                        <input type="email" placeholder="Email">
+                        <input type="password" placeholder="Password">
+                        <button type="submit" class="btn">Register</button>
+                   </form>
+               </div>
+          </div>
+     </div>
+</div>
+<!-----------js for toggle form------->
+     <script>
+     Var LoginForm = document.getElementById("LoginForm");
+     Var RegForm = document.getElementById("RegForm");
+     Var Indicator = document.getElementById("Indicator");
+     </script>
+</body>
+</head>

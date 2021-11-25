@@ -1,0 +1,178 @@
+*{
+    Margin: 0;
+    Padding: 0;
+    Box-sizing: border-box;
+ }
+ body{
+    font-family: 'PT Sans', sans-serif;
+ }
+ .navbar{
+    Display: flex;
+    Align-items: centre;
+    Padding: 20px;
+ }
+ nav{
+     Flex: 1;
+     Text-align: right;
+ }
+ nav ul{
+     display: inline-block;
+     List-style-type: none;
+ }
+ nav ul li{
+     display: inline-block;
+     margin-right: 20px;
+ }
+ a{
+   Text-decoration: none;
+   color: #000000;
+ }
+ p{
+   Color: #000000;
+ }
+ .container{
+     Max-width: 1300px;
+     Margin: auto;
+     Padding-left: 25px;
+     Padding-right: 25px;
+ }
+ .row{
+     display: flex;
+     align-items: centre;
+     flex-wrap: wrap;
+     justify-content: space-around;
+ }
+ .col-2{
+     flex-basis: 50%;
+     min-width: 300px;
+ }
+ .col-2 img{
+     Max-width: 100%;
+     Padding: 50px 0;
+ }
+ .col-2 hi{
+     Font-size: 50px;
+     Line-height: 60px;
+     Margin: 25px 0;
+ }
+ .btn{
+     Display: inline-block;
+     Background: #ff523b;
+     Color: #fff;
+     Padding: 8px 30px;
+     Margin: 30px 0;
+     Border-radius: 30px;
+     transition: background 0.5s;
+ }
+ .btn:hover{
+   background: #563434;
+}
+ .header{
+     Background: radial-gradient(#fff,#f7d1c6);
+ }
+ .header .row{
+     margin-top: 30px;
+     margin-left: 20px;
+ }
+ .categories{
+     margin:70px 0;
+ }
+ .col-3{
+     flex-basis: 30%;
+     min-width: 250px;
+     margin-bottom: 30px;
+ }
+ .col-3 img{
+    width: 100%;
+}
+.small-container{
+    max-width: 1080px;
+    margin:auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.col-4{
+    flex-basis:25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+}
+.col-4 img{
+    width: 100%;
+}
+.title{
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+    color: #000000;
+}
+.col-4:hover{
+    Transform: translateY(-5px);
+}
+/*-----------profile-page--------*/
+.profile-page{
+    Padding: 50px 0;
+    Background: radial-gradient(#fff,#f7d1c6);
+}
+.form-container{
+    background: #fff;
+    Width: 300px;
+    Height: 400px;
+    Position: relative
+    Text-align: center;
+    Padding: 20px 0;
+    Margin: auto;
+    Box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+} 
+.form-container span{
+    Font-weight: bold;
+    Padding: 0 10px;
+    Color: #000000;
+    Cursor: pointer;
+    Width: 100px;
+    Display: inline-block;
+}
+.form-btn{
+    Diaplay: inline-block;
+}
+.form-container form{
+    Max-width: 300px;
+    Padding: 0 20px;
+    Position: absolute;
+    Top: 130px;
+}
+form input{
+    Width: 100%;
+    Height: 30px;
+    Margin: 10px 0;
+    Padding: 0 10px;
+    Border: 1px solid #ccc;
+}
+form .btn{
+    Width: 100%;
+    Border: none;
+    Cursor: pointer;
+    Margin: 10px 0;
+}
+form .btn:focus{
+    outline: none;
+}
+#LoginForm{
+    Left: -300px;
+}
+#RegForm{
+    Left: 0;
+}
+form a{
+    Font-size: 12px;
+} 
+#Indicator{
+    Width: 100px;
+    Border: none;
+    Background: #ff523b;
+    Height: 3px;
+    Margin-top: 8px;
+    Transform: translate(100px);
+}
